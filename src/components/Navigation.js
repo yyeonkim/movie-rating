@@ -3,7 +3,7 @@ import "./Navigation.css";
 
 function Navigation() {
   return (
-    <div class="navigation">
+    <div className="navigation">
       <Link to="/">Home</Link>
       <Link to="/about">About</Link>
     </div>
