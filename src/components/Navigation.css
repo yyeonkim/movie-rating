@@ -1,0 +1,21 @@
+.navigation {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 70px;
+  left: 10px;
+  box-shadow: 0 0.8rem 1.7rem -0.3rem rgba(50, 50, 93, 0.25),
+    0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.3),
+    0 -0.38rem 1rem -0.38rem rgba(0, 0, 0, 0.025);
+}
+
+.navigation a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
+  background-color: white;
+  padding: 0.3rem 0.94rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.025);
+}
